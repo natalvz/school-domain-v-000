@@ -22,5 +22,6 @@ roster
     end
     
     def sort 
-      @roster.sort 
+      @roster.sort do |grade, student|
+        
 end
