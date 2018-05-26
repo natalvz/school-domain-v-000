@@ -22,7 +22,7 @@ roster
     end
     
     def sort 
-      @roster.sort do |a, b|
-        a <=> b
+      @roster.sort do |grade, student|
+        grade <=> student
       end
 end
