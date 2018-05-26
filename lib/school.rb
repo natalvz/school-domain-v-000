@@ -23,5 +23,6 @@ roster
     
     def sort 
       @roster.sort do |grade, student|
-        
+        grade <=> student
+      end
 end
