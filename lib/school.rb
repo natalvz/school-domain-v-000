@@ -18,12 +18,7 @@ end
 roster
   end
   def grade(grade_year)
-    array = []
-    roster[grade].each do |student|
-      array.push(student)
-      end
-      array
-    
+    @roster.fetch(grade_year)
     end
     
     def sort 
